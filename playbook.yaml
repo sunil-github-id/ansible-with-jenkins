@@ -2,11 +2,11 @@
   hosts: all
   become: true
   tasks:
-  - name: "ensure Amit user exists"
+  - name: "ensure Sunil user exists"
     user:
       name: sunil
       state: present
-  - name: "ensure Alex user exists"
+  - name: "ensure Sunil user exists"
     user:
       name: sunil
       state: present
