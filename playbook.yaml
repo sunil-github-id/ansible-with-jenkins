@@ -4,10 +4,10 @@
   tasks:
   - name: "ensure Amit user exists"
     user:
-      name: amit
+      name: sunil
       state: present
   - name: "ensure Alex user exists"
     user:
-      name: alex
+      name: sunil
       state: present
       
